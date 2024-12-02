@@ -1,0 +1,19 @@
+[
+    {
+        "class" : "Principles of Programming Languages",
+        "professor" : "Rajan"
+    },
+    {
+        "class" : "Senior Experience",
+        "professor" : "Paul"
+    },
+     {
+        "class": "Algorithms",
+        "professor": "Zhao"
+    },
+     {
+        "class":"Machine Learning",
+        "professor":"Geinitz"
+    }
+
+]

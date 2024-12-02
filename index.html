@@ -1,18 +1,25 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Template Engine Lab </title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8" />
+    <title>JSON Data Rendering</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="mustache.js"></script>
 </head>
-
 <body>
-  Hello world
-  <div id="app"></div>
-  <script src="script.js"></script>
-
-</body>
-
+    <div id="header-banner" class="header-banner"></div>
+    
+    <div class="column-container">
+        <div class="rickbox">
+            <div id="rick">
+                <h1>Click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a> for free stuff!</h1>
+            </div>
+        </div>
+        <div id="output"></div>
+        <div id="output-courses"></div>
+    </div>
+    
+    <script src="mustache.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
